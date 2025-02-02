@@ -1,6 +1,7 @@
 package org.firstinspires.ftc.teamcode.subsystems;
 
-import static org.firstinspires.ftc.teamcode.support.Utility.normalizePowers;
+
+import static org.firstinspires.ftc.teamcode.utility.Utility.normalizePowers;
 
 import androidx.annotation.NonNull;
 
@@ -16,7 +17,7 @@ public class DriveBase implements Subsystem {
 
     // TODO - If you have different motors, change or add them here. Also edit the constructor motors array and init method and setMotorPowers
     public DcMotorEx leftFront, leftBack, rightFront, rightBack;
-    private DcMotorEx[] motors;
+    private final DcMotorEx[] motors;
 
     public boolean usingOdometryWheels;
     public DcMotor verticalEncoder, horizontalEncoder;

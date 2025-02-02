@@ -1,6 +1,6 @@
 package org.firstinspires.ftc.teamcode.support;
 
-import static org.firstinspires.ftc.teamcode.support.Utility.normalizePowers;
+import static org.firstinspires.ftc.teamcode.utility.Utility.normalizePowers;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.util.ElapsedTime;
